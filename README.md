@@ -4,6 +4,7 @@ Hotel JSJ
 # Integrantes 
 - Jose Manuel Ruiz Zapata
 - Juan Jose Giraldo Monsalve
+- Simon sierra lopez
 
 ## Descripción
 Sistema para la administración de reservas y operaciones internas de hoteles de lujo. Permite a los huéspedes reservar habitaciones de forma flexible y visual.
