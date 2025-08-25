@@ -1,5 +1,9 @@
 # Nombre del Proyecto
 Hotel JSJ
+
+# Integrantes 
+- Jose Manuel Ruiz Zapata
+
 ## Descripción
 Sistema para la administración de reservas y operaciones internas de hoteles de lujo. Permite a los huéspedes reservar habitaciones de forma flexible y visual.
 
