@@ -1,7 +1,7 @@
 # Nombre del Proyecto
-
+Hotel JSJ
 ## Descripción
-Descripción del proyecto y su propósito.
+Sistema para la administración de reservas y operaciones internas de hoteles de lujo. Permite a los huéspedes reservar habitaciones de forma flexible y visual.
 
 ## Características
 - Lista de funcionalidades principales
