@@ -19,7 +19,7 @@ Sistema para la administración de reservas y operaciones internas de hoteles de
 ### Clase 1
 - **Fecha**: [27/08/2025]
 - **Objetivos**:
-  - [Crear carpeta de componentes y un componente]
+  - [Creacion de carpeta components]
   - [Crear la pagina principal]
 - **Avances**:
   - ✅ [Creacion de carpeta components] - Responsable: [Simón Sierra lópez] - Commit: [Creacion de carpeta de components, edicion del archivo layout y creacion de componente Home para la pagina principal]
