@@ -21,20 +21,21 @@ Sistema para la administración de reservas y operaciones internas de hoteles de
 - **Objetivos**:
   - [Creacion de carpeta components]
   - [Crear la pagina principal]
+  - [Componente NavBar]
 - **Avances**:
-  - ✅ [Creacion de carpeta components] - Responsable: [Simón Sierra lópez] - Commit: [Creacion de carpeta de components, edicion del archivo layout y creacion de componente Home para la pagina principal]
-  - ✅ [Tarea completada 2] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
+  - ✅ [Creacion de carpeta components] - Responsable: [Simón Sierra lópez] - Commit: [Creacion de carpeta de components, edicion del archivo layout y creacion de componente Home para la pagina principal.]
+  - ✅ [Componente home] - Responsable: [Juan Jose Giraldo Monsalve] - Commit: [Se hizo la pagina principal en un componente.]
 - **En progreso**:
-  - 🔄 [Tarea en progreso] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
+  - 🔄 [Componente NavBar] - Responsable: [Jose Manuel Ruiz Zapata] - Commit: [Creacion del componente navbar]
 - **Pendiente**:
-  - ⏳ [Tarea pendiente] - Responsable: [Nombre]
+  - ⏳ [Componente NavBar] - Responsable: [Jose Manuel Ruiz Zapata]
 - **Notas**:
-  - [Descripción de problemas, soluciones o decisiones tomadas]
+  - [Algunos problemas que se tuvieron esta clase fue que no se tenia una buena conexion a internet generando problemas al momento de realizar commits y no se podia sincronizar con exito los forks con el repositorio principal.]
 
 ### Clase 2
-- **Fecha**: [DD/MM/YYYY]
+- **Fecha**: [01/09/2025]
 - **Objetivos**:
-  - [Objetivo 1]
+  - [Componente Rooms]
   - [Objetivo 2]
 - **Avances**:
   - ✅ [Tarea completada 1] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
