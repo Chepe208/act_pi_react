@@ -26,7 +26,7 @@ Sistema para la administración de reservas y operaciones internas de hoteles de
   - ✅ [Creacion de carpeta components] - Responsable: [Simón Sierra lópez] - Commit: [Creacion de carpeta de components, edicion del archivo layout y creacion de componente Home para la pagina principal.]
   - ✅ [Componente home] - Responsable: [Juan Jose Giraldo Monsalve] - Commit: [Se hizo la pagina principal en un componente.]
 - **En progreso**:
-  - 🔄 [Componente NavBar] - Responsable: [Jose Manuel Ruiz Zapata] - Commit: [Creacion del componente navbar]
+  - 🔄 [Componente NavBar] - Responsable: [Jose Manuel Ruiz Zapata] - Commit: [Creacion del componente navbar.]
 - **Pendiente**:
   - ⏳ [Componente NavBar] - Responsable: [Jose Manuel Ruiz Zapata]
 - **Notas**:
@@ -36,20 +36,15 @@ Sistema para la administración de reservas y operaciones internas de hoteles de
 - **Fecha**: [01/09/2025]
 - **Objetivos**:
   - [Componente Rooms]
-  - [Objetivo 2]
 - **Avances**:
-  - ✅ [Tarea completada 1] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
-  - ✅ [Tarea completada 2] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
+  - ✅ [Componente NavBar] - Responsable: [Jose Manuel Ruiz Zapata] - Commit: [Creacion del componente navbar.]
+  - ✅ [Componente Rooms y readme] - Responsable: [Simon Sierra Lopez] - Commit: [Se realizo el componente de Rooms, en el cual se muestran las habitaciones disponibles y se modifico parte del README.]
 - **En progreso**:
   - 🔄 [Tarea en progreso] - Responsable: [Nombre] - Commit: [Hash o descripción del commit]
 - **Pendiente**:
   - ⏳ [Tarea pendiente] - Responsable: [Nombre]
 - **Notas**:
   - [Descripción de problemas, soluciones o decisiones tomadas]
-
-### Clase [N]
-- **Fecha**: [DD/MM/YYYY]
-- [Repetir estructura anterior]
 
 ## Contacto
 ### Información del Grupo
