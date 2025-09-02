@@ -23,7 +23,7 @@ export default function About() {
         <h2 className="text-2xl font-semibold mb-4">Hotel JSJ</h2>
         <p className="mb-4">
           Un sistema de próxima generación para administración y reservas de hoteles de lujo, 
-          diseñado específicamente para resorts de lujo y spas donde los huéspedes pueden ver y 
+          diseñado específicamente para resorts de lujo donde los huéspedes pueden ver y 
           reservar cuartos específicos.
         </p>
         <p>
