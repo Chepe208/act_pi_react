@@ -1,11 +1,22 @@
 export default function About() {
   const team = [
-    { name: 'Jóse Manuel', specialty: 'Desarrollo Frontend' },
-    { name: 'Juan Giraldo', specialty: 'Diseño UX/UI' },
-    { name: 'Simon Sierra', specialty: 'Desarrollo Backend' }
+    { 
+      name: 'Jóse Manuel', 
+      specialty: 'Desarrollo FrontEnd',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png' 
+    },
+    { 
+      name: 'Simon Sierra', 
+      specialty: 'Desarrollo BackEnd',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png' 
+    },
+    { 
+      name: 'Juan Giraldo', 
+      specialty: 'Diseño UX/UI',
+      image: 'https://s1.significados.com/foto/ejemplo-og.jpg' 
+    }
   ];
 
-  
   return (
     <div className="container mx-auto p-8">
       <h1 className="text-4xl font-bold text-center mb-8">Sobre Nosotros</h1>
@@ -13,8 +24,12 @@ export default function About() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         {team.map((member, index) => (
           <div key={index} className="text-center">
-            <div className="bg-gray-300 h-32 w-32 rounded-full mx-auto mb-4"></div>
-            <h3 className="text-xl font-semibold">{member.name}</h3>
+            <img 
+              src={member.image} 
+              alt={member.name}
+              className="w-32 h-32 rounded-full object-cover mx-auto mb-4 border-4 border-white shadow-lg"
+            />
+            <h3 className="text-xl font-semibold text-gray-800">{member.name}</h3>
             <p className="text-gray-600">{member.specialty}</p>
           </div>
         ))}

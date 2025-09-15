@@ -16,12 +16,7 @@ export default function RoomDetail() {
     1: { name: 'Habitación Estándar', description: 'Una habitación cómoda con todas las comodidades básicas.' },
     2: { name: 'Habitación de Lujo', description: 'Amplia habitación con amenities premium y vista privilegiada.' },
     3: { name: 'Suite Presidencial', description: 'Nuestra suite más exclusiva con jacuzzi y servicio personalizado.' },
-    4: { name: 'Habitación Familiar', description: 'Espaciosa habitación ideal para familias con niños.' },
-    5: { name: 'Suite Ejecutiva', description: 'Diseñada para viajeros de negocios con área de trabajo.' },
-    6: { name: 'Habitación Premium', description: 'Habitación superior con amenities de lujo.' },
-    7: { name: 'Suite Nupcial', description: 'Romántica suite especial para lunas de miel.' },
-    8: { name: 'Habitación Vista al Mar', description: 'Disfruta de vistas espectaculares al océano.' },
-    9: { name: 'Suite Real', description: 'La experiencia más exclusiva con servicio de mayordomo.' }
+    8: { name: 'Habitación con vista al Mar', description: 'Disfruta de vistas espectaculares al océano.' }
   };
 
   const room = roomDetails[roomId] || roomDetails[1];

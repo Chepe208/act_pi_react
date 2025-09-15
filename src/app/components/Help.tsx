@@ -15,9 +15,19 @@ export default function Help() {
 
 
       <div className="bg-blue-100 rounded-lg p-6">
-        <h2 className="text-2xl font-semibold mb-4">Contacto de Soporte</h2>
+        <h2 className="text-2xl font-semibold mb-4">Contactos de Soporte</h2>
+         <h2 className="text-2xl font-semibold mb-4">Simon</h2>
+        <p className="mb-2"><strong>Email:</strong> simonuwusierra@gmail.com</p>
+        <p><strong>Teléfono:</strong> 3137928483</p>
+        <br />
+         <h2 className="text-2xl font-semibold mb-4">Jose Manuel</h2>
+        <p className="mb-2"><strong>Email:</strong> jruizzapata38@gmail.com</p>
+        <p><strong>Teléfono:</strong> 3113300196</p>
+        <br />
+         <h2 className="text-2xl font-semibold mb-4">Juan Jose</h2>
         <p className="mb-2"><strong>Email:</strong> uiehcskuf@gmail.com</p>
         <p><strong>Teléfono:</strong> 3136129425</p>
+        <br />
         <p className="mt-4">Estamos disponibles para ayudarte de lunes a viernes de 8:00 am a 6:00 pm.</p>
       </div>
     </div>
