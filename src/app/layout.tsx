@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: 'Sistema de reservas de hotel de lujo',
 };
 
+
 export default function RootLayout({
   children,
 }: {

@@ -11,6 +11,7 @@ export default function RoomDetail() {
   const params = useParams();
   const roomId = Number(params.id);
 
+  
   const roomDetails: Record<number, Room> = {
     1: { name: 'Habitación Estándar', description: 'Una habitación cómoda con todas las comodidades básicas.' },
     2: { name: 'Habitación de Lujo', description: 'Amplia habitación con amenities premium y vista privilegiada.' },

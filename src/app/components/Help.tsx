@@ -13,6 +13,7 @@ export default function Help() {
         </ol>
       </div>
 
+
       <div className="bg-blue-100 rounded-lg p-6">
         <h2 className="text-2xl font-semibold mb-4">Contacto de Soporte</h2>
         <p className="mb-2"><strong>Email:</strong> uiehcskuf@gmail.com</p>
