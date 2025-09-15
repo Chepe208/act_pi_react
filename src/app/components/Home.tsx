@@ -15,6 +15,7 @@ export default function Home() {
         <div className="bg-gray-200 h-64 rounded-lg"></div>
       </div>
 
+
       <div className="bg-blue-100 p-6 rounded-lg">
         <h2 className="text-2xl font-semibold mb-4">Nuestras Instalaciones</h2>
         <p>Contamos con habitaciones de lujo, spa de primera clase y servicios exclusivos 

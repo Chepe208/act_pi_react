@@ -28,6 +28,7 @@ export default function Rooms() {
     }
   ];
 
+  
   const handleReserve = (roomId: number) => {
     router.push(`/room-detail/${roomId}`);
   };
