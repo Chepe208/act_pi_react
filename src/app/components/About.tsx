@@ -6,7 +6,7 @@ export default function About() {
       image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png' 
     },
     { 
-      name: 'Simon Sierra', 
+      name: 'Simón Sierra', 
       specialty: 'Desarrollo BackEnd',
       image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png' 
     },

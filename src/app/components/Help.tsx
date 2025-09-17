@@ -16,7 +16,7 @@ export default function Help() {
 
       <div className="bg-blue-100 rounded-lg p-6">
         <h2 className="text-2xl font-semibold mb-4">Contactos de Soporte</h2>
-         <h2 className="text-2xl font-semibold mb-4">Simon</h2>
+         <h2 className="text-2xl font-semibold mb-4">Simón Sierra</h2>
         <p className="mb-2"><strong>Email:</strong> simonuwusierra@gmail.com</p>
         <p><strong>Teléfono:</strong> 3137928483</p>
         <br />
