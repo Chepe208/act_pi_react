@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav className="bg-blue-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-xl font-bold">Hotel JSJ</div>
+        <Link href="/" className="text-xl font-bold">Hotel JSJ</Link>
         <div className="space-x-6">
           <Link href="/" className="hover:text-blue-300">Inicio</Link>
           <Link href="/rooms" className="hover:text-blue-300">Habitaciones</Link>
@@ -17,4 +17,5 @@ export default function NavBar() {
       </div>
     </nav>
   );
+
 }
