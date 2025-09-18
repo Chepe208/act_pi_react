@@ -2,12 +2,19 @@
 
 import { useParams, useRouter } from 'next/navigation';
 
+interface RoomDetail {
+  name: string;
+  description: string;
+  image: string;
+  price: string;
+}
+
 export default function RoomDetail() {
   const router = useRouter();
   const params = useParams();
   const roomId = params.id;
 
-  const roomDetails = {
+   const roomDetails: Record<number, RoomDetail> = {
     1: { 
       name: 'Habitación Estándar', 
       description: 'Una habitación cómoda con todas las comodidades básicas.',
