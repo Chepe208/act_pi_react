@@ -40,26 +40,23 @@ export default function SolicitudEvento() {
     horaFin: '',
     comentarios: ''
   });
+const selectedSalon = salones[salonId as unknown as keyof typeof salones] || salones[1];
 
-  const selectedSalon = salones[salonId as keyof typeof salones] || salones[1];
-
-  const handleSubmit = (e: React.FormEvent) => {
+const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(¡Solicitud enviada! Te contactaremos para confirmar la reserva del ${selectedSalon.nombre});
-    router.push('/eventos');
-  };
+    alert(`¡Solicitud enviada! Te contactaremos para confirmar la reserva del ${selectedSalon.nombre}`);
+    router.push("/eventos");
+};
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
+        ...formData,
+        [e.target.name]: e.target.value
     });
-  };
-
+};
   return (
     <div className="container mx-auto p-8 max-w-4xl">
       <h1 className="text-4xl font-bold text-center mb-8">Solicitud de Reserva de Salón</h1>
-
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
         <div className="bg-purple-100 p-4 rounded-lg mb-6">
           <h2 className="text-xl font-semibold mb-2">Solicitando: {selectedSalon.nombre}</h2>
@@ -68,7 +65,7 @@ export default function SolicitudEvento() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
-          {/* Información Personal */}
+          {}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -133,7 +130,7 @@ export default function SolicitudEvento() {
             </div>
           </div>
 
-          {/* Detalles del Evento */}
+          {}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
