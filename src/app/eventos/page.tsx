@@ -11,7 +11,7 @@ export default function EventosPage() {
       nombre: 'Salón Gran Jardín',
       capacidad: '150 personas',
       tipo: 'Matrimonios y Eventos Grandes',
-      precio: 2500000,
+      precio: 2000000,
       imagen: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&h=350&fit=crop',
       descripcion: 'Amplio salón con jardín exterior, ideal para bodas y eventos formales',
       caracteristicas: ['Jardín exterior', 'Pista de baile', 'Sonido profesional', 'Iluminación especial']
@@ -41,7 +41,7 @@ export default function EventosPage() {
       nombre: 'Terraza Vista al Mar',
       capacidad: '100 personas',
       tipo: 'Cócteles y Recepciones',
-      precio: 2200000,
+      precio: 1500000,
       imagen: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=500&h=350&fit=crop',
       descripcion: 'Terraza exclusiva con vista panorámica al mar',
       caracteristicas: ['Vista al mar', 'Bar premium', 'Ambiente al aire libre', 'Iluminación decorativa']
@@ -51,8 +51,8 @@ export default function EventosPage() {
       nombre: 'Salón Versátil',
       capacidad: '120 personas',
       tipo: 'Eventos Variados',
-      precio: 2000000,
-      imagen: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=500&h=350&fit=crop',
+      precio: 1500000,
+      imagen: 'https://cdn0.bodas.com.mx/vendor/7721/3_2/960/jpg/41885503-257033131618596-4850938984127266816-n_5_207721.jpeg',
       descripcion: 'Espacio flexible para cualquier tipo de evento social',
       caracteristicas: ['Configuración flexible', 'Catering incluido', 'Coordinador de evento', 'Estacionamiento']
     },
