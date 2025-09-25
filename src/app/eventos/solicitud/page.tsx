@@ -60,7 +60,7 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement 
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
         <div className="bg-purple-100 p-4 rounded-lg mb-6">
           <h2 className="text-xl font-semibold mb-2">Solicitando: {selectedSalon.nombre}</h2>
-          <p className="text-lg font-bold text-green-700">${selectedSalon.precio.toLocaleString()} COP</p>
+          <p className="text-lg font-bold">${selectedSalon.precio.toLocaleString()} COP</p>
           <p className="text-sm text-gray-600">Precio base por evento (sujeto a personalización)</p>
         </div>
 

@@ -11,7 +11,7 @@ export default function ComidaPage() {
       name: 'Desayuno Continental',
       description: 'Huevos, tostadas, jugo natural, café y fruta',
       price: 25000,
-      image: 'https://images.unsplash.com/photo-1551782450-17144efb9c50?w=400&h=300&fit=crop',
+      image: 'https://static.bainet.es/clip/716c1a78-70b8-430b-9bd7-16e87e81d379_16-9-aspect-ratio_1600w_0.webp',
       category: 'desayuno'
     },
     {
@@ -79,7 +79,7 @@ export default function ComidaPage() {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.name}</h3>
               <p className="text-gray-600 text-sm mb-3">{item.description}</p>
               <div className="flex justify-between items-center mb-4">
-                <span className="text-2xl font-bold text-green-700">${item.price.toLocaleString()} COP</span>
+                <span className="text-1 xl font-bold">${item.price.toLocaleString()} COP</span>
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                   {item.category}
                 </span>

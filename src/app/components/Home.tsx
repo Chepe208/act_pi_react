@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="bg-blue-100 p-6 rounded-lg">
         <h2 className="text-2xl font-semibold mb-4">Nuestras Instalaciones</h2>
-        <p>Contamos con habitaciones de lujo, spa de primera clase y servicios exclusivos 
+        <p>Contamos con habitaciones de lujo y servicios exclusivos 
         para garantizar una estadía inolvidable.</p>
       </div>
     </div>

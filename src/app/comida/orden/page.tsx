@@ -52,7 +52,7 @@ export default function OrdenComida() {
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
         <div className="bg-yellow-100 p-4 rounded-lg mb-6">
           <h2 className="text-xl font-semibold mb-2">Ordenando: {selectedItem.name}</h2>
-          <p className="text-lg font-bold text-green-700">${selectedItem.price.toLocaleString()} COP</p>
+          <p className="text-lg font-bold">${selectedItem.price.toLocaleString()} COP</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">

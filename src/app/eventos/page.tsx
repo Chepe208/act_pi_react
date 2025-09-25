@@ -92,11 +92,11 @@ export default function EventosPage() {
               <p className="text-gray-600 text-sm mb-3">{salon.descripcion}</p>
               
               <div className="mb-4">
-                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mr-2">
+                <span className="text-xs px-2 py-1 rounded-full mr-2">
                   💼 {salon.tipo}
                 </span>
-                <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                  👥 {salon.capacidad}
+                <span className=" text-xs px-2 py-1 rounded-full">
+                 | 👥 {salon.capacidad}
                 </span>
               </div>
 
@@ -110,7 +110,7 @@ export default function EventosPage() {
               </div>
 
               <div className="flex justify-between items-center mb-4">
-                <span className="text-2xl font-bold text-green-700">
+                <span className="text-2xl font-bold">
                   ${salon.precio.toLocaleString()} COP
                 </span>
                 <span className="text-sm text-gray-500">por evento</span>
