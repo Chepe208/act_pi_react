@@ -2,18 +2,18 @@ export default function About() {
   const team = [
     { 
       name: 'Jóse Manuel', 
-      specialty: 'Desarrollo FrontEnd',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png' 
+      specialty: 'Desarrollador',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppkoKsaYMuIoNLDH7O8ePOacLPG1mKXtEng&s' 
     },
     { 
       name: 'Simón Sierra', 
-      specialty: 'Desarrollo BackEnd',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Ejemplo.png' 
+      specialty: 'Desarrollador',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSppkoKsaYMuIoNLDH7O8ePOacLPG1mKXtEng&s' 
     },
     { 
       name: 'Juan Giraldo', 
-      specialty: 'Diseño UX/UI',
-      image: 'https://s1.significados.com/foto/ejemplo-og.jpg' 
+      specialty: 'Diseñador y tester',
+      image: 'https://images.icon-icons.com/2643/PNG/512/man_boy_people_avatar_user_person_black_skin_tone_icon_159355.png' 
     }
   ];
 

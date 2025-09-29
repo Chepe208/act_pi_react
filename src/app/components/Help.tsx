@@ -13,7 +13,6 @@ export default function Help() {
         </ol>
       </div>
 
-
       <div className="bg-blue-100 rounded-lg p-6">
         <h2 className="text-2xl font-semibold mb-4">Contactos de Soporte</h2>
          <h2 className="text-2xl font-semibold mb-4">Simón Sierra</h2>
